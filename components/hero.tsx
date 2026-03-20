@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function HeroSection() {
@@ -8,11 +9,17 @@ export function HeroSection() {
 
   return (
     <section 
-      className="relative min-h-screen w-full flex items-center justify-center bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: 'url(/hero-lumber.jpg)',
-      }}
+      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden"
     >
+      {/* Background image */}
+      <Image
+        src="/hero-lumber.jpg"
+        alt="Maderera Olivera - Madera de calidad"
+        fill
+        className="absolute inset-0 object-cover"
+        priority
+        quality={85}
+      />
       {/* Improved overlay for better readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/50"></div>
 
@@ -28,6 +35,7 @@ export function HeroSection() {
             />
           </div>
         </div>
+        <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>
         <p className="font-serif text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">
           Madera de <span className="text-green-400">calidad</span>
           <br />

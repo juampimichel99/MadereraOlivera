@@ -18,7 +18,7 @@ export function HeroSection() {
         fill
         className="absolute inset-0 object-cover"
         priority
-        quality={85}
+        quality={75}
       />
       {/* Improved overlay for better readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/50"></div>

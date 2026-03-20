@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const products = [
@@ -45,16 +45,28 @@ const products = [
 
 export function ProductsSection() {
   const [current, setCurrent] = useState(0)
+  const [isMobile, setIsMobile] = useState(false)
   const total = products.length
-  const visible = 2
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)')
+    setIsMobile(mq.matches)
+    const handler = (e: MediaQueryListEvent) => {
+      setIsMobile(e.matches)
+      setCurrent(0)
+    }
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
+
+  const visible = isMobile ? 1 : 2
 
   const prev = () => setCurrent((c) => (c - 1 + total) % total)
   const next = () => setCurrent((c) => (c + 1) % total)
 
-  const visibleProducts = [
-    products[current % total],
-    products[(current + 1) % total],
-  ]
+  const visibleProducts = isMobile
+    ? [products[current % total]]
+    : [products[current % total], products[(current + 1) % total]]
 
   return (
     <section id="productos" className="py-20 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-8 bg-white">
@@ -124,7 +136,7 @@ export function ProductsSection() {
               onClick={() => setCurrent(i)}
               aria-label={`Ir al producto ${i + 1}`}
               className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${
-                i === current || i === (current + 1) % total
+                i === current || (!isMobile && i === (current + 1) % total)
                   ? 'bg-green-500 w-5'
                   : 'bg-amber-200'
               }`}

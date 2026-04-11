@@ -36,7 +36,7 @@ export function HeroSection() {
           </div>
         </div>
         <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>
-        <p className="font-serif text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">
+        <p className="font-sans text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">
           Madera de <span className="text-green-400">calidad</span>
           <br />
           para cada proyecto que tengas en mente

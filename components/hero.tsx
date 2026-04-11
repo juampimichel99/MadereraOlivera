@@ -28,11 +28,11 @@ export function HeroSection() {
         {/* Logo - transparent PNG with 3D elevated shadow */}
         <div className="flex justify-center mb-8">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-11%20at%208.58.49%20AM-Gp2OOSlFIVU4PbJ0AFWKeGF9sysS76.jpeg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-11%20at%208.58.49%20AM-6FSzHvVWtEHLurHlhK9MBo5sJGBdVd.png"
             alt="Maderera Olivera Logo"
-            className="w-52 h-52 sm:w-64 sm:h-64 object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.5)] filter"
+            className="w-52 h-52 sm:w-64 sm:h-64 object-contain"
             style={{
-              filter: 'drop-shadow(0 6px 12px rgba(0,0,0,0.4)) drop-shadow(0 2px 4px rgba(0,0,0,0.3))'
+              filter: 'drop-shadow(0 8px 16px rgba(0,0,0,0.5)) drop-shadow(0 4px 8px rgba(0,0,0,0.4))'
             }}
           />
         </div>

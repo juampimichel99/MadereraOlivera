@@ -29,6 +29,12 @@ export function Footer() {
               </svg>
               Instagram
             </a>
+            <a href="mailto:maderera.oli@gmail.com" className="inline-flex items-center gap-2 text-amber-100 hover:text-green-400 transition-colors duration-300">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              maderera.oli@gmail.com
+            </a>
           </div>
         </div>
 

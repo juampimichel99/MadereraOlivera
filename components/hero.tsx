@@ -27,11 +27,13 @@ export function HeroSection() {
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
         {/* Logo as main heading */}
         <div className="flex justify-center mb-6">
-          <img
-            src="/logo.png"
-            alt="Maderera Olivera Logo"
-            className="w-64 h-auto drop-shadow-2xl"
-          />
+          <div className="bg-white rounded-xl p-4 shadow-2xl">
+            <img
+              src="/logo.png"
+              alt="Maderera Olivera Logo"
+              className="w-56 h-auto"
+            />
+          </div>
         </div>
         <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>
         <p className="font-serif text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">

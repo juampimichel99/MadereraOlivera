@@ -1,9 +1,16 @@
 import sharp from 'sharp';
 import https from 'https';
 import fs from 'fs';
+import path from 'path';
 
 const imageUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-11%20at%208.58.49%20AM-6FSzHvVWtEHLurHlhK9MBo5sJGBdVd.png';
 const outputPath = './public/logo-transparent.png';
+
+// Ensure directory exists
+const dir = path.dirname(outputPath);
+if (!fs.existsSync(dir)) {
+  fs.mkdirSync(dir, { recursive: true });
+}
 
 // Download the image
 const downloadImage = (url) => {

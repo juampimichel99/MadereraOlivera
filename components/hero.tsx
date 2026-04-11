@@ -28,7 +28,7 @@ export function HeroSection() {
         {/* Logo - transparent PNG with 3D elevated shadow */}
         <div className="flex justify-center mb-8">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-11%20at%208.58.49%20AM-6FSzHvVWtEHLurHlhK9MBo5sJGBdVd.png"
+            src="/logo-transparent.png"
             alt="Maderera Olivera Logo"
             className="w-52 h-52 sm:w-64 sm:h-64 object-contain"
             style={{

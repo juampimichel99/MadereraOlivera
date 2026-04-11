@@ -25,12 +25,15 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
-        {/* Logo - transparent background with subtle glow */}
+        {/* Logo - transparent PNG with 3D elevated shadow */}
         <div className="flex justify-center mb-8">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Maderera%20Olivera-TenYHyqYK6CR4LcYuozuNGobRYQcRQ.jpg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-11%20at%208.58.49%20AM-Gp2OOSlFIVU4PbJ0AFWKeGF9sysS76.jpeg"
             alt="Maderera Olivera Logo"
-            className="w-40 h-40 sm:w-48 sm:h-48 object-contain rounded-full drop-shadow-[0_4px_20px_rgba(0,0,0,0.4)]"
+            className="w-52 h-52 sm:w-64 sm:h-64 object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.5)] filter"
+            style={{
+              filter: 'drop-shadow(0 6px 12px rgba(0,0,0,0.4)) drop-shadow(0 2px 4px rgba(0,0,0,0.3))'
+            }}
           />
         </div>
         <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>

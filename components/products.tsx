@@ -41,6 +41,12 @@ const products = [
     description: 'Placas fenólicas y OSB de pino, ideales para construcción y trabajos de carpintería.',
     image: '/wood-panels.jpg',
   },
+  {
+    id: 7,
+    name: 'Chapas',
+    description: 'De todos los largos, en diferentes tipos de materiales y colores.',
+    image: '/metal-sheets.jpg',
+  },
 ]
 
 export function ProductsSection() {

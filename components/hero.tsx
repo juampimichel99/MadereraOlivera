@@ -20,25 +20,26 @@ export function HeroSection() {
         priority
         quality={75}
       />
-      {/* Improved overlay for better readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/50"></div>
+      {/* Dark overlay for better readability */}
+      <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-        {/* Logo as main heading */}
-        <div className="flex justify-center mb-6">
-          <div className="w-48 h-48 bg-white rounded-lg shadow-2xl overflow-hidden">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Maderera%20Olivera-TenYHyqYK6CR4LcYuozuNGobRYQcRQ.jpg"
-              alt="Maderera Olivera Logo"
-              className="w-full h-full object-cover"
-            />
-          </div>
+      <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+        {/* Logo - transparent background with subtle glow */}
+        <div className="flex justify-center mb-8">
+          <img
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Maderera%20Olivera-TenYHyqYK6CR4LcYuozuNGobRYQcRQ.jpg"
+            alt="Maderera Olivera Logo"
+            className="w-40 h-40 sm:w-48 sm:h-48 object-contain rounded-full drop-shadow-[0_4px_20px_rgba(0,0,0,0.4)]"
+          />
         </div>
         <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>
-        <p className="font-sans text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">
-          Madera de <span className="text-green-400">calidad</span>
-          <br />
+        {/* Main title */}
+        <p className="font-sans text-2xl sm:text-4xl text-white mb-4 leading-relaxed max-w-2xl mx-auto font-semibold tracking-wide">
+          Madera de <span className="text-[#2ecc71]">calidad</span>
+        </p>
+        {/* Subtitle */}
+        <p className="font-sans text-lg sm:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto font-normal">
           para cada proyecto que tengas en mente
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">

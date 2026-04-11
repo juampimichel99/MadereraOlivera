@@ -25,31 +25,31 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
-        {/* Logo - transparent PNG with 3D elevated shadow */}
-        <div className="flex justify-center mb-8">
+        {/* Logo - transparent PNG with subtle shadow */}
+        <div className="flex justify-center mb-12">
           <img
             src="/logo-transparent.png"
             alt="Maderera Olivera Logo"
-            className="w-52 h-52 sm:w-64 sm:h-64 object-contain"
+            className="w-48 h-48 sm:w-56 sm:h-56 object-contain"
             style={{
-              filter: 'drop-shadow(0 8px 16px rgba(0,0,0,0.5)) drop-shadow(0 4px 8px rgba(0,0,0,0.4))'
+              filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.3))'
             }}
           />
         </div>
         <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>
         {/* Main title */}
-        <p className="font-sans text-2xl sm:text-4xl text-white mb-4 leading-relaxed max-w-2xl mx-auto font-semibold tracking-wide">
+        <h2 className="font-sans text-3xl sm:text-5xl text-white mb-4 leading-tight max-w-2xl mx-auto font-bold">
           Madera de <span className="text-[#2ecc71]">calidad</span>
-        </p>
+        </h2>
         {/* Subtitle */}
-        <p className="font-sans text-lg sm:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto font-normal">
+        <p className="font-sans text-xl sm:text-2xl text-white/70 mb-16 leading-relaxed max-w-2xl mx-auto font-light italic">
           para cada proyecto que tengas en mente
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
             <Button 
               size="lg"
-              className="bg-green-500 hover:bg-green-600 text-white font-semibold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 w-full sm:w-auto"
+              className="bg-[#2ecc71] hover:bg-[#27ae60] text-white font-semibold text-lg px-10 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
             >
               Contactanos por WhatsApp
             </Button>
@@ -57,9 +57,10 @@ export function HeroSection() {
           <Link href="#productos">
             <Button 
               size="lg"
-              className="bg-white/20 hover:bg-white/30 text-white border-2 border-white font-semibold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 backdrop-blur-sm w-full sm:w-auto"
+              variant="outline"
+              className="bg-white/10 hover:bg-white/20 text-white border border-white/50 font-semibold text-lg px-10 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 backdrop-blur-sm w-full sm:w-auto"
             >
-              Ver Productos
+              Ver productos
             </Button>
           </Link>
         </div>

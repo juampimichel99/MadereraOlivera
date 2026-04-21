@@ -41,6 +41,12 @@ const products = [
     description: 'Placas fenólicas y OSB de pino, ideales para construcción y trabajos de carpintería.',
     image: '/wood-panels.jpg',
   },
+  {
+    id: 7,
+    name: 'Chapas',
+    description: 'Chapas acanaladas galvanizadas, ideales para techos y cubiertas. Disponibles en varias medidas.',
+    image: '/chapas.png',
+  },
 ]
 
 export function ProductsSection() {

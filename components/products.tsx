@@ -45,7 +45,7 @@ const products = [
     id: 7,
     name: 'Chapas',
     description: 'Chapas acanaladas galvanizadas, ideales para techos y cubiertas. Disponibles en varias medidas.',
-    image: '/chapas.png',
+    image: '/chapas.jpg',
   },
 ]
 

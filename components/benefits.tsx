@@ -16,7 +16,7 @@ const benefits = [
   {
     id: 3,
     title: 'Entrega Inmediata',
-    description: 'Hacemos envíos a domicilio a todo el país',
+    description: 'Envíos a Monte Grande, Canning, todo Zona Sur y alrededores',
     icon: '🚚',
   },
   {

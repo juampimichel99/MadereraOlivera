@@ -1,5 +1,6 @@
 import { HeroSection } from '@/components/hero'
 import { AboutSection } from '@/components/about'
+import { ProductCategoriesSection } from '@/components/product-categories'
 import { ProductsSection } from '@/components/products'
 import { WoodsSection } from '@/components/woods'
 import { BenefitsSection } from '@/components/benefits'
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <div className="bg-background text-foreground">
       <HeroSection />
+      <ProductCategoriesSection />
       <AboutSection />
       <ProductsSection />
       <WoodsSection />

@@ -38,7 +38,7 @@ export function WoodsSection() {
           </h2>
           <div className="w-16 h-1 bg-green-500 mx-auto mb-8 rounded-full" />
           <p className="text-amber-700 text-lg leading-relaxed max-w-2xl mx-auto">
-            Trabajamos con las mejores especies disponibles del mercado, tanto para uso estructural como decorativo.
+            Trabajamos con las principales especies del mercado para uso estructural y decorativo. Consultanos por disponibilidad y precios.
           </p>
         </div>
 

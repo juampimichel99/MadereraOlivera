@@ -24,10 +24,8 @@ export function AboutSection() {
             <p className="font-semibold text-amber-950 text-lg">Años en el rubro</p>
             <p className="text-sm text-amber-600 mt-2">Sin interrupciones desde 1982</p>
           </div>
-          <div className="bg-white rounded-xl p-8 text-center border-2 border-amber-100 shadow-md hover:shadow-lg hover:border-green-400 transition-all duration-300 hover:-translate-y-1">
-           <p className="text-4xl font-bold text-green-600 mb-3 flex justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-600"><circle cx="12" cy="8" r="4"/><path d="M12 14c-4 0-7 2-7 4v1h14v-1c0-2-3-4-7-4z"/><path d="M9 11.5c0 0 1 1.5 3 1.5s3-1.5 3-1.5"/></svg>
-            </p>
+         <div className="bg-white rounded-xl p-8 text-center border-2 border-amber-100 shadow-md hover:shadow-lg hover:border-green-400 transition-all duration-300 hover:-translate-y-1">
+            <p className="text-4xl font-bold text-green-600 mb-3">Confianza</p>
             <p className="font-semibold text-amber-950 text-lg">Vínculos de largo plazo</p>
             <p className="text-sm text-amber-600 mt-2">Clientes que confían en nosotros hace años</p>
           </div>

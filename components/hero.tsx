@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export function HeroSection() {
-  const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20quiero%20consultar%20por%20productos%20de%20Maderera%20Olivera.'
+  const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20los%20contacto%20desde%20la%20web.%20Necesito%20asesoramiento%20sobre%20materiales%20y%20precios.'
 
   return (
     <section 
@@ -37,10 +37,10 @@ export function HeroSection() {
           />
         </div>
         <h1 className="sr-only">Maderera Olivera - Madera de calidad para cada proyecto</h1>
-        <p className="font-serif text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">
-          Madera de <span className="text-green-400">calidad</span>
+       <p className="text-2xl sm:text-4xl text-white mb-10 leading-relaxed drop-shadow-md max-w-2xl mx-auto font-medium tracking-wide">
+          Madera de calidad para <span className="text-green-400">construcción y obra</span>
           <br />
-          para cada proyecto que tengas en mente
+          Monte Grande · Zona Sur · Todo Buenos Aires
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">

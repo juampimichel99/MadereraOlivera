@@ -25,9 +25,11 @@ export function AboutSection() {
             <p className="text-sm text-amber-600 mt-2">Sin interrupciones desde 1982</p>
           </div>
           <div className="bg-white rounded-xl p-8 text-center border-2 border-amber-100 shadow-md hover:shadow-lg hover:border-green-400 transition-all duration-300 hover:-translate-y-1">
-            <p className="text-4xl font-bold text-green-600 mb-3">↩</p>
-            <p className="font-semibold text-amber-950 text-lg">Clientes que vuelven</p>
-            <p className="text-sm text-amber-600 mt-2">La mayoría nos elige proyecto tras proyecto</p>
+            <p className="text-4xl font-bold text-green-600 mb-3 flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-600"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 0-3 3l2 2"/><path d="M5 12V7a2 2 0 0 1 2-2h6"/><path d="M5 12H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1"/></svg>
+            </p>
+            <p className="font-semibold text-amber-950 text-lg">Vínculos de largo plazo</p>
+            <p className="text-sm text-amber-600 mt-2">Clientes que confían en nosotros hace años</p>
           </div>
           <div className="bg-white rounded-xl p-8 text-center border-2 border-amber-100 shadow-md hover:shadow-lg hover:border-green-400 transition-all duration-300 hover:-translate-y-1">
             <p className="text-4xl font-bold text-green-600 mb-3">✓</p>

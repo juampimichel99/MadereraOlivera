@@ -10,7 +10,7 @@ export function Footer() {
               Maderera Olivera
             </h3>
             <p className="text-sm text-amber-200 leading-relaxed">
-              Tu partner confiable en construcción desde hace más de 40 años
+              Maderera familiar en El Jagüel y Monte Grande. Más de 40 años en el rubro.
             </p>
           </div>
           <div className="space-y-3">
@@ -33,7 +33,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-amber-800 pt-8 text-center">
-          <p className="text-sm text-amber-200">&copy; 2024 Maderera Olivera. Todos los derechos reservados.</p>
+          <p className="text-sm text-amber-200">&copy; 2025 Maderera Olivera. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

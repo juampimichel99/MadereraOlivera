@@ -141,11 +141,11 @@ export function ProductCategoriesSection() {
                 onClick={() => {
                   if (typeof window !== 'undefined' && window.gtag) {
                     window.gtag('event', 'conversion', {
-                      'send_to': 'AW-16521942603/LI7oCKuL-YscEMuso8Y9'
+                      'send_to': 'AW-16521942603/LI7oCKuL-YscEMusc8Y9'
                     })
                   }
                 }}
-                className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-b-none rounded-lg transition-all duration-200 group-hover:shadow-md"
+                className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-none transition-all duration-200 group-hover:shadow-md"
               >
                 <MessageCircle className="w-5 h-5" />
                 <span>Consultar por WhatsApp</span>
@@ -174,7 +174,7 @@ export function ProductCategoriesSection() {
             </p>
             <p>
               Todas nuestras categorías de productos están disponibles para consulta inmediata a través 
-              de WhatsApp. Contactanos con las categorías que te interesan y recibe información detallada 
+              de WhatsApp. Contactanos con las categorías que te interesan y recibí información detallada 
               de precios, disponibilidad y especificaciones técnicas.
             </p>
           </div>

@@ -159,27 +159,19 @@ export function ProductCategoriesSection() {
           ))}
         </div>
 
-        <div className="mt-16 sm:mt-20 bg-white rounded-lg p-6 sm:p-8 border-2 border-amber-100">
+     <div className="mt-16 sm:mt-20 bg-white rounded-lg p-6 sm:p-8 border-2 border-amber-100">
           <h3 className="text-2xl sm:text-3xl font-bold text-amber-950 mb-4">
-            Todo lo que Necesitas para tu Proyecto
+            Todo lo que Necesitás para tu Proyecto
           </h3>
           <div className="space-y-4 text-amber-700 leading-relaxed">
             <p>
-              En Maderera Olivera contamos con una amplia selección de productos de madera y materiales
-              de construcción de la más alta calidad. Ya sea que necesites tableros y fenólicos para
-              proyectos de construcción, decks de madera para renovar tu terraza, pérgolas a medida,
-              escaleras de madera, o cualquier otro producto especializado, tenemos lo que buscas.
+              En Maderera Olivera encontrás tirantes y vigas para estructuras, tableros fenólicos y MDF, chapas para techo, deck de madera, saligna para encofrado, machimbre, escalones y más.
             </p>
             <p>
-              Nuestro catálogo incluye tirantería y vigas para estructuras, maderas especiales y nobles
-              para proyectos de lujo, sistemas de aislamiento térmico, membranas para techos, barnices
-              y lacas de primer nivel, balustres y pasamanos decorativos, además de nuestro servicio
-              de cortes a medida personalizado para cada proyecto.
+              Atendemos particulares, constructoras y carpinteros. Hacemos cortes a medida y entregamos en obra en todo el Gran Buenos Aires.
             </p>
             <p>
-              Todas nuestras categorías de productos están disponibles para consulta inmediata a través
-              de WhatsApp. Contactanos con las categorías que te interesan y recibí información detallada
-              de precios, disponibilidad y especificaciones técnicas.
+              Consultá precio por WhatsApp — te respondemos de inmediato.
             </p>
           </div>
         </div>

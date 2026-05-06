@@ -5,18 +5,28 @@ import Link from 'next/link'
 export function HeroSection() {
   const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20los%20contacto%20desde%20la%20web.%20Necesito%20asesoramiento%20sobre%20materiales%20y%20precios.'
   return (
-    <section 
-      className="relative min-h-screen w-full flex items-end overflow-hidden"
-    >
+    <section className="relative min-h-screen w-full flex items-end overflow-hidden">
+      {/* Desktop image */}
       <Image
         src="/hero-lumber.jpg"
         alt="Maderera Olivera - Madera de calidad"
         fill
-        className="absolute inset-0 object-cover"
+        className="absolute inset-0 object-cover hidden md:block"
         priority
         quality={85}
       />
-   <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-transparent"></div>
+      {/* Mobile image */}
+      <Image
+        src="/hero-lumber-mobile.jpg"
+        alt="Maderera Olivera - Madera de calidad"
+        fill
+        className="absolute inset-0 object-cover block md:hidden"
+        priority
+        quality={85}
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-transparent"></div>
+      {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 w-full pb-24 sm:pb-32">
         <div className="max-w-xl space-y-6">
           <h1 className="sr-only">Maderera Olivera - Madera de calidad para tu proyecto</h1>

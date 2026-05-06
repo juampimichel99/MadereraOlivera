@@ -9,7 +9,7 @@ declare global {
 }
 
 export function WhatsAppButton() {
-  const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20quiero%20consultar%20por%20productos%20de%20Maderera%20Olivera.'
+  const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20los%20contacto%20desde%20la%20web.%20Necesito%20asesoramiento%20sobre%20materiales%20y%20precios.'
 
   const handleClick = () => {
     if (typeof window !== 'undefined' && window.gtag) {
@@ -18,7 +18,7 @@ export function WhatsAppButton() {
         'event_label': 'whatsapp_click'
       })
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-16521942603/LI7oCKuL-YscEMuso8Y9'
+        'send_to': 'AW-16521942603/LI7oCKuL-YscEMusc8Y9'
       })
     }
   }

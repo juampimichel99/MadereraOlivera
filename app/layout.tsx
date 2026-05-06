@@ -9,8 +9,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 const _playfairDisplay = Playfair_Display({ subsets: ["latin"], weight: ["500"] });
 
 export const metadata: Metadata = {
-  title: 'Maderera Olivera - Materiales para la Construcción',
-  description: 'Maderera Olivera: Pisos de madera, techos, escalones y materiales de construcción de calidad. Empresa familiar con años de experiencia.',
+  title: 'Maderera Olivera | Monte Grande, Zona Sur',
+  description: 'Tirantes, fenólicos, chapas, deck, saligna, fibrofácil y más. Cortes a medida y entrega rápida en zona sur. Consultá precio por WhatsApp.',
   generator: 'v0.app',
   icons: {
     icon: '/favicon.jpg',
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-16521942603"

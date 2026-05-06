@@ -6,9 +6,8 @@ export function HeroSection() {
   const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20los%20contacto%20desde%20la%20web.%20Necesito%20asesoramiento%20sobre%20materiales%20y%20precios.'
   return (
     <section 
-      className="relative min-h-screen w-full flex items-center overflow-hidden"
+      className="relative min-h-screen w-full flex items-end overflow-hidden"
     >
-      {/* Background image */}
       <Image
         src="/hero-lumber.jpg"
         alt="Maderera Olivera - Madera de calidad"
@@ -17,13 +16,10 @@ export function HeroSection() {
         priority
         quality={85}
       />
-      {/* Overlay más suave */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-black/10"></div>
-      {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 w-full">
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent"></div>
+      <div className="relative z-10 max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 w-full pb-24 sm:pb-32">
         <div className="max-w-xl space-y-6">
           <h1 className="sr-only">Maderera Olivera - Madera de calidad para tu proyecto</h1>
-          <p className="text-sm font-semibold text-green-400 tracking-widest uppercase">Desde 1982</p>
           <p className="text-4xl sm:text-5xl lg:text-6xl text-white font-bold leading-tight drop-shadow-md">
             Madera de <span className="text-green-400">calidad</span><br />
             para tu proyecto
@@ -31,7 +27,7 @@ export function HeroSection() {
           <p className="text-lg text-white/80 leading-relaxed">
             Más de 40 años abasteciendo a particulares, constructoras y carpinteros del Gran Buenos Aires.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <Button 
                 size="lg"

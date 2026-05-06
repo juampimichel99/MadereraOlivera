@@ -8,17 +8,16 @@ import { LocationMap } from '@/components/location-map'
 import { ContactSection } from '@/components/contact'
 import { Footer } from '@/components/footer'
 import { WhatsAppButton } from '@/components/whatsapp-button'
-
 export default function Home() {
   return (
     <div className="bg-background text-foreground">
       <HeroSection />
-      <ProductCategoriesSection />
       <AboutSection />
       <ProductsSection />
       <WoodsSection />
       <BenefitsSection />
       <LocationMap />
+      <ProductCategoriesSection />
       <ContactSection />
       <Footer />
       <WhatsAppButton />

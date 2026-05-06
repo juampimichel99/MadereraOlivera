@@ -32,7 +32,7 @@ export function HeroSection() {
             alt="Maderera Olivera Logo"
             width={220}
             height={220}
-            className="drop-shadow-2xl"
+            className="mix-blend-multiply brightness-110"
             priority
           />
         </div>

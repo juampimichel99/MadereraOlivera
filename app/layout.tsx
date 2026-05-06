@@ -10,11 +10,16 @@ export const metadata: Metadata = {
   title: 'Maderera Olivera | Monte Grande, Zona Sur',
   description: 'Tirantes, fenólicos, chapas, deck, saligna, fibrofácil y más. Cortes a medida y entrega rápida en zona sur. Consultá precio por WhatsApp.',
   generator: 'v0.app',
-  icons: {
-    icon: '/favicon.jpg',
-    apple: '/favicon.jpg',
-  },
-}
+ icons: {
+  icon: [
+    { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+    { url: '/favicon-64x64.png', sizes: '64x64', type: 'image/png' },
+    { url: '/favicon.ico', sizes: 'any' },
+  ],
+  apple: '/apple-touch-icon.png',
+},
 
 export default function RootLayout({
   children,

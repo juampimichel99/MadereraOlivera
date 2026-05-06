@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 export function ContactSection() {
-  const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20quiero%20consultar%20por%20productos%20de%20Maderera%20Olivera.'
+  const whatsappUrl = 'https://wa.me/5491153073523?text=Hola%2C%20los%20contacto%20desde%20la%20web.%20Necesito%20asesoramiento%20sobre%20materiales%20y%20precios.'
 
   return (
     <section className="py-20 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-950 via-amber-900 to-amber-950 text-white">
@@ -15,7 +15,7 @@ export function ContactSection() {
           </h2>
           <div className="w-16 h-1 bg-green-400 mx-auto rounded-full"></div>
           <p className="text-xl text-amber-100 leading-relaxed">
-            Contactanos hoy para discutir tus necesidades y recibir una propuesta personalizada
+            Consultanos por WhatsApp o por teléfono. Te asesoramos y te damos precio sin compromiso.
           </p>
         </div>
 

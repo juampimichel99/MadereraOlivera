@@ -1,7 +1,7 @@
 'use client'
 export function AboutSection() {
   return (
-    <section className="py-20 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-amber-50">
+    <section className="py-20 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-amber-50 to-amber-100">
       <div className="max-w-4xl mx-auto">
         <div className="mb-14 text-center">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-amber-950 mb-6 tracking-tight">

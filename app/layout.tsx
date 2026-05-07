@@ -22,6 +22,48 @@ export const metadata: Metadata = {
   },
 }
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Maderera Olivera",
+  "url": "https://www.madereraolivera.com",
+  "telephone": ["+54-9-11-5307-3523", "+54-11-4290-0585"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Antonio Cervetti 8",
+    "addressLocality": "El Jagüel",
+    "addressRegion": "Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -34.8890,
+    "longitude": -58.4234
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "13:00"
+    }
+  ],
+  "description": "Maderera familiar en El Jagüel, Monte Grande. Más de 40 años abasteciendo a particulares, constructoras y carpinteros del GBA sur. Tirantes, fenólicos, chapas, deck, fibrofácil, saligna y más. Cortes a medida y entrega en obra.",
+  "areaServed": [
+    "Monte Grande", "El Jagüel", "Ezeiza", "Canning",
+    "Lomas de Zamora", "Almirante Brown", "Lanús", "Gran Buenos Aires"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/maderera.olivera"
+  ]
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,6 +84,11 @@ export default function RootLayout({
             gtag('config', 'AW-16521942603');
           `}
         </Script>
+        <Script
+          id="schema-local-business"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
       </head>
       <body className="antialiased">
         {children}

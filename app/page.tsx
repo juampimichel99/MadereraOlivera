@@ -1,4 +1,3 @@
-import { Navbar } from '@/components/navbar'
 import { HeroSection } from '@/components/hero'
 import { AboutSection } from '@/components/about'
 import { ProductCategoriesSection } from '@/components/product-categories'
@@ -13,7 +12,6 @@ import { WhatsAppButton } from '@/components/whatsapp-button'
 export default function Home() {
   return (
     <div className="bg-background text-foreground">
-      <Navbar />
       <HeroSection />
       <AboutSection />
       <ProductsSection />
